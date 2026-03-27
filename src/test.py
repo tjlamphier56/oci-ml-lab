@@ -14,3 +14,5 @@ print(df)
 
 print("\nDataFrame Summary:")
 print(df.describe())    
+
+print("\nAverage Age:", df["Age"].mean())
